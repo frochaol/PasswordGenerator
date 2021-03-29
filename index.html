@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="estilos.css" type="text/css">
+</head>
+<body>
+    <div class="nav-bar">
+        <h2>Password Generator</h2>
+    </div>
+
+    <form action="">
+        <div class="main-form">
+            <label for="keyword">Insert key word</label>
+            <input type="text" name="fkeyword" id="keyword" placeholder="example" autocomplete="off">
+        </div>
+        <div class="main-form">
+            <label for="entity"> Insert the entity </label>
+            <input type="text" name="entity" id="entity" placeholder="github" autocomplete="off">
+        </div>
+        <div class="main-form">
+            <button type="button" onclick="generateKey()" >Generate key</button>
+            <input class="result" type="text" name="generated" id="generated" placeholder="generated key" autocomplete="off">
+        </div>
+        <p id="result"></p>
+    </form>
+
+    <div>
+        <button type="button" class="btn-clear" onclick="clearText()">Clear</button>
+    </div>
+    
+    <footer>
+        <a href="" style="display: none;">GitHub repository</a>
+    </footer>
+    <script type="text/javascript" src="function.js"></script>
+</body>
+</html>
