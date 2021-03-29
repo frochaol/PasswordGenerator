@@ -14,5 +14,5 @@ function clearText() {
     document.getElementById("keyword").value = '';
     document.getElementById("entity").value = '';
     document.getElementById("generated").value = '';
-    document.getElementById("result").style.display = "none" ;
+    document.getElementById("result").innerHTML = '' ;
 }

@@ -67,3 +67,13 @@ button {
     margin-left: 20px;
     width: 485.75px;
 }
+
+footer {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+footer a {
+    text-decoration: none;
+    color: #24292e;
+    font-weight: bolder;
+}
