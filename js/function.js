@@ -20,7 +20,6 @@ function convertPassword(x) {
                 break;
         }
         finalWord = finalWord + word;
-        console.log(finalWord);
     }
     return finalWord;
 }
