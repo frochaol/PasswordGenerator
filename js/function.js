@@ -31,7 +31,6 @@ function generateKey()
     var conc = test+entity
     // -- Convert text to md5
     md5hash = md5(conc);
-    console.log(md5hash);
     var result = convertPassword(md5hash);
     document.getElementById("generated").value = result;  
     document.getElementById("result").innerHTML = 'The key was generated' ;
